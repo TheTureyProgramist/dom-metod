@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,6 +18,48 @@
         <li>Другий</li>
         <li>Третій</li>
     </ul>
-<script type="module" src="./dom.js"></script>
+<hr>
+<ul id="categories">
+  <li class="item" data-title="Тварини" data-count="4">
+    <h2>Тварини</h2>
+    <ul>
+      <li>Кіт</li>
+      <li>Хом'як</li>
+      <li>Кінь</li>
+      <li>Папуга</li>
+    </ul>
+  </li>
+  <li class="item" data-title="Продукти" data-count="3">
+    <h2>Продукти</h2>
+    <ul>
+      <li>Хліб</li>
+      <li>Петрушка</li>
+      <li>Сир</li>
+    </ul>
+  </li>
+  <li class="item" data-title="Технології" data-count="5">
+    <h2>Технології</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node</li>
+    </ul>
+  </li>
+</ul>
+
+<ul id="ingredients"></ul>
+
+<ul class="gallery"></ul>
+
+<div id="counter">
+  <button type="button">-1</button>
+  <span id="value">0</span>
+  <button type="button">+1</button>
+</div>
+  <script type="module" src="./dom.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./dom-2.js"></script>
 </body>
 </html>

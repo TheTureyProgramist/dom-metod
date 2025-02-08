@@ -1,0 +1,5 @@
+.gallery {
+    display: flex;
+    gap: 100px;
+    box-shadow: skyblue 3px 4px 6px 10px;
+}
